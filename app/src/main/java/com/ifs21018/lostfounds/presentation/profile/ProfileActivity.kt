@@ -82,7 +82,7 @@ class ProfileActivity : AppCompatActivity() {
     private fun loadProfileData(profile: DataUserResponse){
         binding.apply {
 
-//            Log.i("dedi","https://public-api.delcom.org/" + profile.user.photo )
+//            Log.i("syalom","https://public-api.delcom.org/" + profile.user.photo )
 
 
             if(profile.user.photo != null){

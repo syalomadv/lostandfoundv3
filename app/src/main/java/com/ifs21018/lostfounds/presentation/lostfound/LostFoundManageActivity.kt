@@ -84,6 +84,13 @@ class LostFoundManageActivity : AppCompatActivity() {
 
                 observePostLostFound(title, description, status)
             }
+            btnLostFoundManageCamera.setOnClickListener {
+                startCamera()
+            }
+
+            btnLostFoundManageGallery.setOnClickListener {
+                startGallery()
+            }
         }
     }
 

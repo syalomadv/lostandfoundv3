@@ -14,11 +14,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible">
+
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/appbarLostFoundFavorite"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#8062B5"
+            android:background="#AD88C6"
+            android:backgroundTint="#3F51B5"
             app:navigationIcon="@drawable/ic_arrow_back_24"
             app:navigationIconTint="@color/white"
             app:title="LostFound Favorite"
@@ -56,11 +58,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appbarLayoutLostFoundFavorite" />
+
     <TextView
         android:id="@+id/tvLostFoundFavoriteEmptyError"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:backgroundTint="#3F51B5"
+        android:fontFamily="@font/poppins"
         android:text="Belum terdapat data LostFound favorite!"
         android:textColor="#E6180D"
         android:textSize="16sp"
